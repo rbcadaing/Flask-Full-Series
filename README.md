@@ -17,7 +17,7 @@ Pre-req prior to running the app
 
 
 Initialize Database
-    >>> from project import app, db
+    >>> from market import app, db
     >>> app.app_context().push()
     >>> db.create_all()
     >>> from market import Item
