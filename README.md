@@ -1,3 +1,5 @@
+Source : https://www.youtube.com/watch?v=p068JokuThU&list=PLOkVupluCIjuPtTkhO6jmA76uQR994Wvi
+
 Open miniforge terminal and run below commands.
     1. `conda create -n FlaskMarket python=3.10.8 -y`
     2. `conda activate FlaskMarket`
@@ -30,3 +32,8 @@ Verify if data has been save to db
 Clear Python Console
     >>> import os
     >>> os.system('cls')
+
+Generate ramdom key
+
+    >>> import os
+    >>> os.urandom(12).hex()
